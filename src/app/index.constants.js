@@ -4,7 +4,6 @@
 
   angular
     .module('sinontp')
-    .constant('malarkey', malarkey)
     .constant('moment', moment);
 
 })();
