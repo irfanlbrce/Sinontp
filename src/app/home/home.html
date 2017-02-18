@@ -1,8 +1,8 @@
 
-  <div class="col-md-12 well">
-    <p>HOME</p>
-
-    <div uib-carousel active="active" interval="5000" no-wrap="false">
+ <div class="container maincontent">
+   <div class="row">
+     <div class="col-md-12">
+    <div uib-carousel active="active" interval="500000" no-wrap="false">
       <div uib-slide ng-repeat="slide in home.dataArray track by $index" index="$index">
         <img ng-src="{{slide.src}}" style="margin:auto;">
         <div class="carousel-caption">
@@ -12,4 +12,35 @@
       </div>
     </div>
   </div>
+   </div>
+   <div class="row">
+     <div class="col-md-12">
+       <h1>Welcome to <span>SiNON Therapeutics</span></h1>
+       <div class="divider"></div>
+</div>
+<div class="col-md-9">
+  <p>SiNON is dedicated to improving the lives of those who suffer from debilitating neurological diseases by increasing the ability of drugs to cross the Blood Brain Barrier (BBB). Our patented nanoparticle, the Carbon Dot, will enable pharmaceutical companies to encapsulate their drugs in a way which dramatically improves drug-localization to the brain. This allows for a reduction in overall dose administration to the patient, leading to reduced toxicity risk and side-effects while improving therapeutic index and cost-efficacy. Considering the rapid growth of the senior population, and subsequent increase in neurological disease, we believe that our novel technology is an essential part of the overall solution to this healthcare crisis in the US and around the world.</p>
+</div>
+<div class="col-md-3">
+          <img src="../assets/images/2016/03/ab1.jpg" class="img-responsive" />
+</div>
+<div class="col-md-12">
+  <div class="col-md-3 clo-sm-3 col-xs-3 strip1" style=""></div>
+<div class="col-md-3 clo-sm-3 col-xs-3 strip2" style=""></div>
+<div class="col-md-3 clo-sm-3 col-xs-3 strip3" style=""></div>
+<div class="col-md-3 clo-sm-3 col-xs-3 strip4" style=""></div>
+</div>
 
+
+   </div>
+   <div class="row pressrelease">
+     <div class="col-md-12">
+       <h1> News & Press Release</h1>
+       <div class="clearfix"></div>
+       <div class="divider"></div>
+       <div class="clearfix"></div>
+       <p>Read our latest news from the company. Feel free to ask questions in comments for any news you find interesting.</p>
+     </div>
+
+   </div>
+   </div> 

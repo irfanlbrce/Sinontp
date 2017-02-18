@@ -11,8 +11,9 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
  */
 // bower:scss
 // endbower
-body {
+body.md-default-theme, body, html.md-default-theme, html, body {
     font-family: 'Montserrat', sans-serif;
+    background: #fff;
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -29,6 +30,195 @@ body {
   }
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
+.carousel-control {
+    position: absolute;
+    top:46%;
+    left: 0;
+    bottom: 0;
+    width:40px;
+    opacity:10;
+    height: 70px;
+
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background:rgba(0, 0, 0, 0.2);
+}
+.carousel-control.left {
+  background-image:none;
+}
+.carousel-control.right {
+  background-image:none;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  width: 18px;
+  font-size: 20px;
+}
+.carousel-caption, .carousel-indicators {
+  display: none;
+}
+
+.maincontent {
+
+  h1 {
+    font-style: normal;
+font-weight: 300;
+letter-spacing: .1em;
+font-size: 35px;
+margin: 20px 0 0 0px;
+
+        span {
+          
+          font-weight: 800;
+          color: #088eff;
+        }
+  }
+
+  p {
+font-size: 18px;
+line-height: 1.55;
+  }
+
+
+.strip1 {
+background: transparent none repeat scroll 0 0;
+border-right: 280px solid transparent;
+border-bottom: 20px solid #088EFF;
+height: 2px;
+padding: 0 !important;
+}
+.strip2 {
+background: transparent none repeat scroll 0 0;
+border-left: 280px solid transparent;
+border-bottom: 20px solid #269CFF;
+height: 2px;
+padding: 0 !important;
+}
+.strip3 {
+background: transparent none repeat scroll 0 0;
+border-right: 280px solid transparent;
+border-bottom: 20px solid #45AAFF;
+height: 2px;
+padding: 0 !important;
+}
+.strip4 {
+background: transparent none repeat scroll 0 0;
+border-left: 280px solid transparent;
+border-bottom: 20px solid #64B8FF;
+height: 2px;
+padding: 0 !important;
+}
+.divider {
+    width: 70px;
+    height: 2px;
+    background: #088eff;
+    float: left;
+    margin: 15px 0px 15px 0px;
+
+}
+
+.pressrelease {
+  padding: 50px 0;
+  h1 {
+    font-weight: 800;
+          color: #088eff;
+          font-size: 35px;
+          margin: 0px;
+          text-align: center;
+  }
+  .divider {
+    width: 70px;
+    height: 2px;
+    background: #088eff;
+    margin: 15px auto 15px auto !important;
+    float: none;
+
+}
+p {
+  text-align: center;
+  max-width: 70%;
+  margin: 0px auto;
+}
+}
+
+}
+
+.innerheading {
+  background: #088eff;
+  padding: 50px 0px;
+  margin: 0px 0px 60px 0;
+
+  h1 {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 800;
+  }
+
+}
+.innerpage {
+
+  .marbtm50 {
+    margin-bottom: 50px;
+  }
+  .marbtm50:last-child {
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: #000;
+    margin: 20px 0px;
+    display: block;
+    font-weight: 700;
+    padding: 0px 30px;
+  }
+  p {
+    font-size: 13px;
+font-weight: 400;
+line-height: 1.7;
+padding: 0px 30px;
+  }
+
+}
+
+
+.oureasearchinnerpage {
+
+  .marbtm50 {
+    margin-bottom: 50px;
+  }
+  .marbtm50:last-child {
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    font-size: 26px;
+    color: #000;
+    margin: 0px 0px 20px 0;
+    display: block;
+    font-weight: 700;
+    padding: 0px;
+  }
+  p {
+    font-size: 13px;
+font-weight: 400;
+line-height: 1.7;
+padding: 0px;
+margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
