@@ -1,0 +1,59 @@
+.map {
+    background: #f3f3f3;
+ .address {
+    background: #f36438;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    height: 280px;
+    padding: 30px 40px;
+
+}   
+    .location {
+        background:url('/assets/images/2016/03/placeholder.png') no-repeat left top;
+        padding: 0 0 0 45px;
+        margin-bottom: 30px;
+        
+    }
+    .email {
+        background:url('/assets/images/2016/03/open-envelope.png') no-repeat left top;
+        padding: 0 0 0 45px;
+        
+        a {
+            color: #fff;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+        
+    }
+    
+}
+.form {
+    background: #fff;
+    padding: 60px 0px;
+
+h1 {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: 300;
+}
+    .form-control {
+        background: #eee;
+        border: none;
+        border-radius: 0px;
+        height: 36px;
+        box-shadow: none;
+    }
+    .btn {
+        float: right;
+        color: #fff;
+        padding: 8px 15px;
+        background: #088eff;
+        border: none;
+        border-radius: 0px;
+    }
+}
