@@ -39,11 +39,52 @@
         controllerAs: 'collaboration'
       })
       .state('news', {
-        url: '/news',
-        templateUrl: 'app/news/news.html',
-        controller: 'NewsController',
-        controllerAs: 'news'
-      })
+            url: '/news',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/news.html',
+                    controller: 'NewsController',
+                    controllerAs: 'news'
+                }
+            },
+        })
+        .state('news.sinon-overcomes-barriers-to-win-grand-prize', {
+            url: '/sinon-overcomes-barriers-to-win-grand-prize',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/sinon-overcomes-barriers-to-win-grand-prize.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }            
+        }).state('news.sinon-wins-the-16th-annual-duke-startup-challenge', {
+            url: '/sinon-wins-the-16th-annual-duke-startup-challenge',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/sinon-wins-the-16th-annual-duke-startup-challenge.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }            
+        }).state('news.brc-d2d-interview', {
+            url: '/brc-d2d-interview',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/brc-d2d-interview.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }            
+        }).state('news.therapeutics', {
+            url: '/therapeutics',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/therapeutics.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }            
+        })
       .state('produts', {
         url: '/produts',
         templateUrl: 'app/produts/produts.html',

@@ -1,11 +1,16 @@
-
-   <div class="innerheading">
-
- <div class="container">
-   <h1>News & Press Release</h1>
-   </div>
-   </div> 
-   <div class="container innerpage">
-<h1  style="margin: 30px auto; text-align: center;">
-   Comming Soon..!</h1>
+<div class="innerheading">
+    <div class="container">
+        <h1>News & Press Release</h1>
+    </div>
+</div>
+<div class="container innerpage">
+    <ul class="nav nav-pills nav-stacked" id="stacked-menu-sinontp">
+        <li class="" ng-repeat="new in news.newsUpdatesRoutes | orderBy:'-updatedDate'">
+            <div class="">
+                <a ng-href="{{new.href}}" class="" ng-class="{'active':new.active}">
+                    <label class="">{{new.name}}</label> ---- {{new.updatedDate | date:'MMMM dd, yyyy'}}
+                </a>
+            </div>
+        </li>
+    </ul>
 </div>

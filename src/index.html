@@ -1,12 +1,13 @@
 <!doctype html>
 <html ng-app="sinontp">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>sinontp</title>
+    <title>Sinon Therapeutics</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    
-<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
@@ -20,25 +21,26 @@
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
-  </head>
-  <body>
+</head>
+
+<body ng-contoller="IndexController as index">
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="container-fluid">
-<div class="row">
-      <div>
-        <header></header>
-      </div>
+        <div class="row">
+            <div>
+                <header></header>
+            </div>
 
-      <div class="" ui-view></div>
+            <div class="" ui-view></div>
 
-      <div>
-        <footer></footer>
-      </div>
+            <div>
+                <footer></footer>
+            </div>
 
+        </div>
     </div>
-</div>
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
     <!-- run `gulp inject` to automatically populate bower script dependencies -->
@@ -55,5 +57,6 @@
     <!-- endinject -->
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>

@@ -28,22 +28,15 @@
       <div class="clearfix"></div>
       <div class="divider"></div>
       <div class="clearfix"></div>
-      <div class="row news">
+      <div class="row news" ng-repeat="new in footer.newsUpdatesRoutes | orderBy:'-updatedDate' | limitTo:2">
         <div class="col-md-4">
-           <img src="assets/images/2016/04/therapeutics-160x160.jpg" class="img-responsive" />
+           <img ng-src="{{new.imgSrc}}" class="img-responsive" />
         </div>
         <div class="col-md-8">
-          <span class="date">April 6, 2016</span>
-          <span class="name">Therapeutics</span>
-        </div>
-      </div>
-      <div class="row news">
-        <div class="col-md-4">
-           <img src="assets/images/2016/04/brc-d2d-interview-160x160.jpg" class="img-responsive" />
-        </div>
-        <div class="col-md-8">
-          <span class="date">April 6, 2016</span>
-          <span class="name">Therapeutics</span>
+          <a ng-href="{{new.href}}" ng-attr-id="news_{{$index}}">
+          <span class="date">{{new.updatedDate | date:'MMMM dd, yyyy'}}</span>
+          <span class="name">{{new.name}}</span>
+          </a>
         </div>
       </div>
     </div></div>
