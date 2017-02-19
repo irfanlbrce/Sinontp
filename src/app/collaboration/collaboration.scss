@@ -1,6 +1,10 @@
 .onhovsearch {
     position: relative;
 
+    img {
+        width: 100%;
+    }
+
     .whiteshadow {
         width: 100%;
         height: 100%;
@@ -26,8 +30,10 @@
         .whiteshadow {
         width: 100%;
         height: 100%;
-        background: rgba(255, 255, 255, 0.3);
+        
+        background: url('/assets/images/2016/03/magnifying-glass.png') no-repeat center center rgba(255, 255, 255, 0.3);
         display: table-cell;
+        background-size: 15%;
         vertical-align: middle;
         font-size: 30px;
         color: red;

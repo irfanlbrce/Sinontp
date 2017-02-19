@@ -1,0 +1,74 @@
+.ourteam {
+    background: #dddfde;
+    padding: 60px 0 10px 0;
+    position: relative;
+
+    h1 {
+        font-style: normal;
+    font-weight: 300;
+    letter-spacing: .1em;
+    font-size: 35px;
+    margin: 20px 0 0 0px;
+
+    span {
+            font-weight: 800;
+    color: #088eff;
+    }
+    }
+    .divider {
+        width: 70px;
+    height: 2px;
+    background: #088eff;
+    float: left;
+    margin: 15px 0px 15px 0px;
+    }
+    p {
+            font-size: 18px;
+    line-height: 1.55;
+    }
+    .findourmore {
+        background: #088eff;
+        color: #fff !important;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 15px  !important;
+
+        position: absolute;
+        bottom: -15px;
+        left:45%;
+
+
+    }
+}
+.teammenbers {
+    background: #f1f1f1;
+    padding: 60px 0px 20px 0px;
+
+.member {
+    background: #fff;
+    width: 100%;
+    padding: 0px 15px 30px 15px;
+
+    .designation {
+        font-size: 14px;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+    .membername {
+        font-size: 26px;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 20px;
+        
+    }
+    p {
+        font-size: 14px;
+        font-weight: 400;
+    line-height: 1.7;
+    }
+}
+.marbtm40 {
+    margin-bottom: 40px;
+}
+}
