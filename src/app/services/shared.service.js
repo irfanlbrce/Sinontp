@@ -8,6 +8,9 @@
         var self = this;
         
         self.state = $state;
+        self.isNavCollapsed = true;
+        self.isCollapsed = false;
+        self.isCollapsedHorizontal = false;
         
         self.routes = [
             { id: 1, state: 'news.sinon-wins-the-16th-annual-duke-startup-challenge', href: '#/news/sinon-wins-the-16th-annual-duke-startup-challenge', name: 'SiNON wins the 16th Annual Duke Startup Challenge – Entrepreneurship Week 2015', active: false, childContents: [], updatedDate:'2014-08-08T00:00:00+00:00',imgSrc:"" },

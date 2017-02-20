@@ -15,23 +15,20 @@ h1 {
 a:hover, a:focus {
   color: greenyellow;
 }
-.sonontp-nav {
+
+.navbar-inverse {
   background: none;
   border: none;
-  height: 100px;
   box-shadow: 0 1px 3px rgba(0,0,0,.11);
-
-  .navbar-brand {
-float: left;
-     padding:10px;
-    font-size: 18px;
-    line-height: 20px;
-     height: auto; 
-         margin: 18px 0 0 0;
-  }
-
-      
 }
+.navbar {
+  margin-bottom: 0px;
+  min-height: 100px;
+}
+
+
+
+
 .navbar {
   margin-bottom: 0px;
 }
@@ -47,6 +44,7 @@ float: left;
   font-weight: 600;
   text-transform: uppercase;
   padding: 15px 0px 10px 0px !important;
+  border-bottom: solid 3px transparent;
 
 }
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -57,4 +55,37 @@ float: left;
   background: none;
   color: #000;
   border-bottom: solid 3px #088eff;
+}
+.navbar-brand {
+  padding: 0px;
+}
+
+
+
+@media (max-width:767px) {
+  .navbar-toggle {
+    margin: 70px 0 10px 0;
+float: right;
+background: #003471;
+border-color: #003471 !important;
+  }
+  .navbar-nav {
+  width: 100%;
+}
+}
+@media (max-width:320px) {
+.navbar-brand {
+width: 80%;
+  
+}
+.navbar-toggle {
+    margin: 50px 0 10px 0;
+float: right;
+  }
+  .navbar-nav {
+  margin: 10px 0 0 0;
+}
+.navbar-inverse .navbar-nav > li {
+  margin: 0px;
+}
 }

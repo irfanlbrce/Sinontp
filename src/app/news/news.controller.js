@@ -8,12 +8,15 @@
   /** @ngInject */
   NewsController.$inject = ['SharedService','$state','moment'];
   function NewsController(SharedService,$state,moment) {
-    var vm = this;
-    vm.shared = SharedService;
-     
+    var self = this;
+    self.shared = SharedService;
+    self.shared = SharedService;
+    self.isNavCollapsed = self.shared.isNavCollapsed;
+    self.isCollapsed = self.shared.isCollapsed;
+    self.isCollapsedHorizontal = self.shared.isCollapsedHorizontal;
 
     //Fetching data from SharedService
-    vm.newsUpdatesRoutes = vm.shared.routes;
+    self.newsUpdatesRoutes = self.shared.routes;
     var date = moment().format('LL');
 
     activate();
