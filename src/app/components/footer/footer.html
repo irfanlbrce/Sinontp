@@ -33,7 +33,7 @@
            <img ng-src="{{new.imgSrc}}" class="img-responsive" />
         </div>
         <div class="col-md-8 col-sm-8 col-xs-8">
-          <a ng-href="{{new.href}}" ng-attr-id="news_{{$index}}">
+          <a class="footerlinks" ng-href="{{new.href}}" ng-attr-id="news_{{$index}}">
           <span class="date">{{new.updatedDate | date:'MMMM dd, yyyy'}}</span>
           <span class="name">{{new.name}}</span>
           </a>
