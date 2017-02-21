@@ -11,9 +11,16 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
  */
 // bower:scss
 // endbower
+
+
+
 body.md-default-theme, body, html.md-default-theme, html, body {
     font-family: 'Montserrat', sans-serif;
     background: #fff;
+}
+
+.headernbody {
+  min-height: calc(100vh - 454px);
 }
 .browsehappy {
   margin: 0.2em 0;
@@ -184,6 +191,49 @@ line-height: 1.7;
 padding: 0px 30px;
   }
 
+  .nav-stacked > li {
+    float: left !important;
+    width: 100%;
+    background: #f1f1f1;
+    margin: 0 0 10px 0;
+
+    &:hover {
+      background: #dbd9d9;
+    }
+
+    a {
+      color: #000;
+      float: left;
+      width: 100% !important;
+
+      &:hover {
+        color: #000;
+        text-decoration: none;
+      }
+    }
+
+    .ntag {
+  float: left;
+  width: 70px;
+  margin: 0 15px 0 0;
+}
+.newstitle {
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  float: left;
+  margin: 15px 0 0 0;
+}
+.newsdate {
+  float: right;
+  font-size: 12px;
+  color: #9d9d9d;
+  font-weight: 200;
+  margin: 5px 10px 0 0;
+}
+
+  }
+
 }
 
 
@@ -220,7 +270,11 @@ margin-bottom: 15px;
   }
 }
 
-
+@media (max-width:480px) {
+ .strip1, .strip2, .strip3, .strip4 {
+   display: none;
+ }
+}
 
 
 

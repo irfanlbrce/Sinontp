@@ -4,11 +4,13 @@
     </div>
 </div>
 <div class="container innerpage">
-    <ul class="nav nav-pills nav-stacked" id="stacked-menu-sinontp">
+    <ul class="nav nav-pills nav-stacked" id="stacked-menu-sinontp" style="margin-bottom: 50px;">
         <li class="" ng-repeat="new in news.newsUpdatesRoutes | orderBy:'-updatedDate'">
             <div class="">
                 <a ng-href="{{new.href}}" class="" ng-class="{'active':new.active}">
-                    <label class="">{{new.name}}</label> ---- {{new.updatedDate | date:'MMMM dd, yyyy'}}
+                    <img ng-src="{{new.imgSrc}}" alt="{{new.name}}" class="ntag" />
+                    <span class="newstitle">{{new.name}}</span>
+                    <span class="newsdate">{{new.updatedDate | date:'MMMM dd, yyyy'}}</span>
                 </a>
             </div>
         </li>
