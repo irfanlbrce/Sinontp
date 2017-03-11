@@ -84,6 +84,15 @@
                     controllerAs: 'updates'
                 }
             }            
+        }).state('news.Sinon-among-50-companies-selected', {
+            url: '/Sinon-among-50-companies-selected',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/Sinon-among-50-companies-selected.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }            
         })
       .state('produts', {
         url: '/produts',
