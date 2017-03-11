@@ -22,6 +22,9 @@
        else if(state == 'Therapeutics'){
         $state.go('news.therapeutics');
       }
+       else if(state == 'SiNON among'){
+        $state.go('news.Sinon-among-50-companies-selected');
+      }
       else{
 
       }

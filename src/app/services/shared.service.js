@@ -17,6 +17,7 @@
             { id: 2, state: 'news.sinon-overcomes-barriers-to-win-grand-prize', href: '#/news/sinon-overcomes-barriers-to-win-grand-prize', name: 'SiNON Overcomes Barriers to Win Grand Prize', active: false, childContents: [], updatedDate:'2015-03-01T00:00:00+00:00',imgSrc:"assets/images/Used/placeholder.png" },
             { id: 3, state: 'news.brc-d2d-interview', href: '#/news/brc-d2d-interview', name: 'BRC D2D Interview', active: false, childContents: [] , updatedDate:'2016-04-06T00:00:00+00:00',imgSrc:"assets/images/2016/04/brc-d2d-interview-160x160.jpg"},
             { id: 4, state: 'news.therapeutics', href: '#/news/therapeutics', name: 'Therapeutics', active: false, childContents: [], updatedDate:'2016-04-06T09:00:00+00:00',imgSrc:"assets/images/2016/04/therapeutics-160x160.jpg"},
+            { id: 4, state: 'news.Sinon-among-50-companies-selected', href: '#/news/Sinon-among-50-companies-selected', name: 'SiNon among 50 companies selected for CED Conference', active: false, childContents: [], updatedDate:'2017-02-25T22:56:21+00:00',imgSrc:"assets/images/Used/CEDLife-Small.png"},
             ];
        return self;
     }
