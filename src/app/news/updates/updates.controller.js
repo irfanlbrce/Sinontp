@@ -19,12 +19,16 @@
        else if(state == 'SiNON Overcomes'){
         $state.go('news.sinon-overcomes-barriers-to-win-grand-prize');
       }
-       else if(state == 'Therapeutics'){
-        $state.go('news.therapeutics');
-      }
        else if(state == 'SiNON among'){
         $state.go('news.Sinon-among-50-companies-selected');
       }
+      else if(state == 'Extraction of'){
+        $state.go('news.Extraction-of-preformed-graphene-oxide-from-coal');
+      }
+      else if(state == 'Carbon Nano'){
+        $state.go('Carbon-nano-onions-cross-the-blood-brain-barrier');
+      }
+
       else{
 
       }

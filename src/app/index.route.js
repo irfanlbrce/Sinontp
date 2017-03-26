@@ -75,15 +75,7 @@
                     controllerAs: 'updates'
                 }
             }            
-        }).state('news.therapeutics', {
-            url: '/therapeutics',
-            views: {
-                '@': {
-                    templateUrl: 'app/news/updates/therapeutics.html',
-                    controller: 'UpdatesController',
-                    controllerAs: 'updates'
-                }
-            }            
+                  
         }).state('news.Sinon-among-50-companies-selected', {
             url: '/Sinon-among-50-companies-selected',
             views: {
@@ -93,8 +85,26 @@
                     controllerAs: 'updates'
                 }
             }            
-        })
-      .state('produts', {
+        }).state('news.Extraction-of-preformed-graphene-oxide-from-coal', {
+            url: '/Extraction-of-preformed-graphene-oxide-from-coal',
+            views: {
+                '@': {
+                    templateUrl: 'app/news/updates/Extraction-of-preformed-graphene-oxide-from-coal.html',
+                    controller: 'UpdatesController',
+                    controllerAs: 'updates'
+                }
+            }
+        }).state('news.Carbon-nano-onions-cross-the-blood-brain-barrier', {
+        url: '/Carbon-nano-onions-cross-the-blood-brain-barrier',
+        views: {
+            '@': {
+                templateUrl: 'app/news/updates/Carbon-nano-onions-cross-the-blood-brain-barrier.html',
+                controller: 'UpdatesController',
+                controllerAs: 'updates'
+            }
+        }  
+            
+      }).state('produts', {
         url: '/produts',
         templateUrl: 'app/produts/produts.html',
         controller: 'ProdutsController',
